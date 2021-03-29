@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Long Arithmetic</title>
+        <link rel="stylesheet" type="text/css" href="longArithmetic.css" />
+    </head>
+
+    <body>
+        <h1>Long Arithmetic</h1>
+
+        <div class="tab-container">
+            <input class="tab-control" id="tab1" type="radio" name="tabs" checked />
+            <label class="tab" for="tab1">Random Sums</label>
+
+            <input class="tab-control" id="tab2" type="radio" name="tabs" />
+            <label class="tab" for="tab2">Single Digit Sums</label>
+
+            <input class="tab-control" id="tab3" type="radio" name="tabs" />
+            <label class="tab" for="tab3">Single Column Subtractions</label>
+
+            <input class="tab-control" id="tab4" type="radio" name="tabs" />
+            <label class="tab" for="tab4">Times Tables</label>
+
+            <div id="content-container">
+                <div id="content1" class="tab-content">
+                    <div class="controls">
+                        <p>Generate random sums of any length</p>
+                        <ul>
+                            <li><label for="number-of-sums">Number of sums: </label><input id="number-of-sums" type="text" data-bind="textInput: randomSums.numberOfSums" /></li>
+                            <li><label for="digits-top">Number of digits (top):</label><input id="digits-top" type="text" data-bind="textInput: randomSums.digitsTop" /></li>
+                            <li><label for="digits-bottom">Number of digits (bottom):</label><input id="digits-bottom" type="text" data-bind="textInput: randomSums.digitsBottom" /></li>
+                            <li><label for="allow-carrying">Allow carrying:</label><input id="allow-carrying" type="checkbox" data-bind="checked: randomSums.allowCarrying" /></li>
+                            <li><label for="sum-type-random">Sum type:</label><select id="sum-type-random" data-bind="value: randomSums.sumType, options: randomSums.allowedSumTypes, optionsText: function(item) { return Sums.Operator[item]; }"></select></li>
+                            <li><label for="show-solutions">Show answers:</label><input id="show-solutions" type="checkbox" data-bind="checked: randomSums.showSolutions" /></li>
+                            <li><button title="Generate Sums" onclick="viewModel.randomSums.generateSums();" >Generate Sums</button></li>
+                        </ul>
+                    </div>
+                    <div data-bind="foreach: randomSums.sums">
+                        <div class="sum">
+                            <div class="row">
+                                <!-- ko text: operand1.toString() --><!-- /ko -->
+                            </div>
+                            <div class="row bottomRow">
+                                <!-- ko text: Sums.operatorToSymbol(operator) --><!-- /ko -->
+                                <!-- ko text: operand2.toString() --><!-- /ko -->
+                            </div>
+                            <div class="row" data-bind="html: $root.randomSums.showSolutions() ? solution.toString() : '&nbsp;'">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content2" class="tab-content">
+                    <div class="controls">
+                        <p>Generate all sums containing only single digits</p>
+                        <ul>
+                            <li><label for="sum-ordering">Ordering:</label><select id="sum-ordering" data-bind="value: singleDigitSums.ordering, options: singleDigitSums.allowedOrderings, optionsText: function(item) { return Sums.orderingToText(item); }"></select></li>
+                            <li><label for="sum-type-single-digit">Sum type:</label><select id="sum-type-single-digit" data-bind="value: singleDigitSums.sumType, options: singleDigitSums.allowedSumTypes, optionsText: function(item) { return Sums.Operator[item]; }"></select></li>
+                            <li><label for="show-solutions">Show answers:</label><input id="show-solutions" type="checkbox" data-bind="checked: singleDigitSums.showSolutions" /></li>
+                            <li><button title="Generate Sums" onclick="viewModel.singleDigitSums.generateSums();" >Generate Sums</button></li>
+                        </ul>
+                    </div>
+                    <div data-bind="foreach: singleDigitSums.sums">
+                        <div class="sum">
+                            <div class="row">
+                                <!-- ko text: operand1.toString() --><!-- /ko -->
+                            </div>
+                            <div class="row bottomRow">
+                                <!-- ko text: Sums.operatorToSymbol(operator) --><!-- /ko -->
+                                <!-- ko text: operand2.toString() --><!-- /ko -->
+                            </div>
+                            <div class="row" data-bind="html: $root.singleDigitSums.showSolutions() ? solution.toString() : '&nbsp;'">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content3" class="tab-content">
+                    <div class="controls">
+                        <p>Generate all subtraction sums needed for an individual column when doing long subtraction with carrying</p>
+                        <ul>
+                            <li><label for="sum-ordering">Ordering:</label><select id="sum-ordering" data-bind="value: singleColumnSubtractions.ordering, options: singleColumnSubtractions.allowedOrderings, optionsText: function(item) { return Sums.orderingToText(item); }"></select></li>
+                            <li><label for="show-solutions">Show answers:</label><input id="show-solutions" type="checkbox" data-bind="checked: singleColumnSubtractions.showSolutions" /></li>
+                            <li><button title="Generate Sums" onclick="viewModel.singleColumnSubtractions.generateSums();" >Generate Sums</button></li>
+                        </ul>
+                    </div>
+                    <div data-bind="foreach: singleColumnSubtractions.sums">
+                        <div class="sum">
+                            <div class="row">
+                                <!-- ko text: operand1.toString() --><!-- /ko -->
+                            </div>
+                            <div class="row bottomRow">
+                                <!-- ko text: Sums.operatorToSymbol(operator) --><!-- /ko -->
+                                <!-- ko text: operand2.toString() --><!-- /ko -->
+                            </div>
+                            <div class="row" data-bind="html: $root.singleColumnSubtractions.showSolutions() ? solution.toString() : '&nbsp;'">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content4" class="tab-content">
+                    <div class="controls">
+                        <p>Generate times tables</p>
+                        <ul>
+                            <li><label for="sum-ordering">Ordering:</label><select id="sum-ordering" data-bind="value: timesTables.ordering, options: timesTables.allowedOrderings, optionsText: function(item) { return Sums.orderingToText(item); }"></select></li>
+                            <li><label for="ones-table">Ones:</label><input id="ones-table" type="checkbox" value="1" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="twos-table">Twos:</label><input id="twos-table" type="checkbox" value="2" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="threes-table">Threes:</label><input id="threes-table" type="checkbox" value="3" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="fours-table">Fours:</label><input id="fours-table" type="checkbox" value="4" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="fives-table">Fives:</label><input id="fives-table" type="checkbox" value="5" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="sixes-table">Sixes:</label><input id="sixes-table" type="checkbox" value="6" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="sevens-table">Sevens:</label><input id="sevens-table" type="checkbox" value="7" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="eights-table">Eights:</label><input id="eights-table" type="checkbox" value="8" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="nines-table">Nines:</label><input id="nines-table" type="checkbox" value="9" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="tens-table">Tens:</label><input id="tens-table" type="checkbox" value="10" data-bind="checked: timesTables.tables" /></li>
+                            <li><label for="show-solutions">Show answers:</label><input id="show-solutions" type="checkbox" data-bind="checked: timesTables.showSolutions" /></li>
+                            <li><button title="Generate Sums" onclick="viewModel.timesTables.generateSums();" >Generate Sums</button></li>
+                        </ul>
+                    </div>
+                    <div data-bind="foreach: timesTables.sums">
+                        <div class="sum">
+                            <div class="row">
+                                <!-- ko text: operand1.toString() --><!-- /ko -->
+                            </div>
+                            <div class="row bottomRow">
+                                <!-- ko text: Sums.operatorToSymbol(operator) --><!-- /ko -->
+                                <!-- ko text: operand2.toString() --><!-- /ko -->
+                            </div>
+                            <div class="row" data-bind="html: $root.timesTables.showSolutions() ? solution.toString() : '&nbsp;'">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="knockout.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>
