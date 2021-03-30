@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-image: url(../images/bodyBackground.png); }
+  
+  a {
+    color: #000000; }
+    a:hover {
+      color: #808080; }
+  
+  p {
+    margin: 0;
+    padding-bottom: 5px; }
+  
+  img.thumb {
+    width: 200px;
+    height: 150px; }
+  
+  #header {
+    width: 905px;
+    height: 156px;
+    position: fixed;
+    background-image: url(../images/navBar.png);
+    background-repeat: none; }
+  
+  #siteName {
+    font-family: Courier New;
+    font-size: 50px;
+    position: absolute;
+    left: 45px;
+    top: 33px;
+    width: 400px;
+    padding-top: 20px; }
+  
+  #navigation {
+    position: absolute;
+    left: 445px;
+    top: 33px;
+    width: 280px;
+    padding-top: 20px;
+    padding-left: 20px; }
+    #navigation a {
+      padding: 0 10px 10px 0; }
+  
+  #amazonAd {
+    position: absolute;
+    right: 60px;
+    top: 33px; }
+  
+  #content {
+    padding: 156px 40px 0 40px;
+    background-image: url(../images/leftBorder.png);
+    background-repeat: repeat-y;
+    background-color: #ffe17c; }
+  
+  #footer {
+    width: 100%;
+    clear: both;
+    height: 28px;
+    background-image: url(../images/bottomBorder.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-color: #ffe17c; }
+    #footer .left {
+      float: left;
+      background-image: url(../images/bottomLeft.png);
+      height: 28px;
+      width: 28px; }
+  
+  #links {
+    overflow: hidden;
+    width: 100%; }
+    #links div {
+      float: left;
+      width: 200px;
+      padding: 0 20px 20px 20px; }
+      #links div a {
+        display: block; }
+  
+  #thief {
+    overflow: hidden;
+    width: 100%; }
+    #thief #backstory {
+      float: left;
+      width: 80%; }
+    #thief #screenshots {
+      float: left;
+      padding-left: 10px; }
+      #thief #screenshots a {
+        display: block; }
+  
