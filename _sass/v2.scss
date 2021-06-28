@@ -1,0 +1,59 @@
+$main-width: 1024px;
+$content-margin: 20px;
+$content-width: 700px;
+
+$lightest-colour: #A6D5AE;
+$middle-colour: #8FBC8E;
+$darkest-colour: #64A466;
+
+$page-background-colour: $lightest-colour;
+$header-colour: $darkest-colour;
+$main-block-colour: #FEFCE0;
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $page-background-colour;
+    margin: 0;
+}
+
+#header {
+    background-color: $header-colour;
+    box-shadow: 0 4px 2px 2px rgba(0,0,0,0.1);
+    border-bottom: #F9F9E0 solid 1px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navigation {
+    display: table;
+    margin: 0 auto;
+}
+
+#main {
+    width: $main-width;
+    margin: 20px auto;
+}
+
+#content {
+    background-color: $main-block-colour;
+    width: $content-width;
+    margin: $content-margin;
+    float: left;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.1);
+}
+
+#sidebar {
+    background-color: $main-block-colour;
+    width: $main-width - $content-width - ($content-margin * 3);
+    margin: $content-margin $content-margin $content-margin 0;
+    float: left;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.1);
+}
