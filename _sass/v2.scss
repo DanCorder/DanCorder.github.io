@@ -1,59 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 $main-width: 1024px;
 $content-margin: 20px;
 $content-width: 700px;
+$header-height: 3.5em;
 
-$lightest-colour: #A6D5AE;
-$middle-colour: #8FBC8E;
-$darkest-colour: #64A466;
+$lighter-colour: #A6D5AE;
+$medium-colour: #64A466;
+$darker-colour: #464F41;
 
-$page-background-colour: $lightest-colour;
-$header-colour: $darkest-colour;
-$main-block-colour: #FEFCE0;
-
-div {
-    box-sizing: border-box;
-}
+$text-background-colour: #FEFCE0;
+$text-colour: #37492d;
 
 body {
-    background-color: $page-background-colour;
+    font-family: "Arial", sans-serif;
+    background-color: $lighter-colour;
+    color: $text-colour;
     margin: 0;
 }
 
-#header {
-    background-color: $header-colour;
-    box-shadow: 0 4px 2px 2px rgba(0,0,0,0.1);
-    border-bottom: #F9F9E0 solid 1px;
+a {
+    color: $medium-colour;
+    &:visited {
+        color: $darker-colour;
+    }
+}
+
+.header {
     position: fixed;
     top: 0;
     width: 100%;
+    height: $header-height;
+    display: flex;
+    justify-content: center;
+    background-color: $text-background-colour;
+    box-shadow: 0 4px 2px 2px rgba(0,0,0,0.1);
+
+    &__site-name {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 50px;
+    }
+
+    &__navigation {
+        padding: 20px;
+        & a {
+            padding-left: 10px;
+            color: $medium-colour;
+        }
+    }
 }
 
-#navigation {
-    display: table;
-    margin: 0 auto;
-}
-
-#main {
+.main {
     width: $main-width;
-    margin: 20px auto;
+    margin: $header-height auto 0 auto;
+    display: flex;
+    align-items: flex-start;
 }
 
-#content {
-    background-color: $main-block-colour;
+.blog-content {
+    background-color: $text-background-colour;
     width: $content-width;
-    margin: $content-margin;
+    margin: $content-margin / 2;
     float: left;
     padding: 20px;
     border-radius: 4px;
     box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.1);
 }
 
-#sidebar {
-    background-color: $main-block-colour;
+.blog-sidebar {
+    background-color: $text-background-colour;
     width: $main-width - $content-width - ($content-margin * 3);
-    margin: $content-margin $content-margin $content-margin 0;
+    margin: $content-margin / 2;
     float: left;
     padding: 20px;
     border-radius: 4px;
     box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.1);
+
+    &__posts {
+        padding: 0;
+        list-style: none;
+        font-size: small;
+    }
 }
+
