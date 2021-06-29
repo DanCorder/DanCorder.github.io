@@ -7,5 +7,5 @@ layout: pagev2
   {{ content }}
 </div>
 <div class='post-sidebar'>
-  {% include post-list.html category=layout.category %}
+  {% include {{ layout.list }} category=layout.category %}
 </div>
