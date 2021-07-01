@@ -7,6 +7,9 @@
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
+/** Some space for the bullets/numbers **/
+ol, ul { padding-left: 2em; }
+
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
 
@@ -23,7 +26,7 @@ $text-background-colour: #FEFCE0;
 $text-colour: #37492d;
 
 body {
-    font-family: "Arial", sans-serif;
+    font-family: "Verdana", "Arial", sans-serif;
     background-color: $lighter-colour;
     color: $text-colour;
     margin: 0;
@@ -118,9 +121,8 @@ a {
 }
 
 .post-list {
-    &__post {
-        list-style: none;
-    }
+    padding-left: 0;
+    list-style: none;
 
     &__heading {
         margin-bottom: 0.2em;
