@@ -134,3 +134,18 @@ a {
         margin-bottom: 1em;
     }
 }
+
+.links {
+    &__set {
+        float: left;
+        margin: 0 1em 1em 0;
+
+        h2 {
+            margin-bottom: 0.2em;
+        }
+
+        a {
+            display: block;
+        }
+    }
+}
