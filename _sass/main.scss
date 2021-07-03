@@ -88,6 +88,14 @@ a {
     border-radius: 4px;
     box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.1);
 
+    img {
+        max-width: $content-width - (2 * $content-margin);
+    }
+
+    code {
+        white-space: pre-wrap;
+    }
+
     &__date {
         font-size: x-small;
         margin-bottom: 0.5em;
