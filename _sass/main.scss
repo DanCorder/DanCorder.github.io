@@ -13,6 +13,9 @@ ol, ul { padding-left: 2em; }
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
 
+/** Remove bottom margin for sublists **/
+li > ul, li > ol { margin-bottom: 0; }
+
 $main-width: 1024px;
 $content-margin: 20px;
 $content-width: 700px;
