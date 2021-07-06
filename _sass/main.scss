@@ -16,7 +16,28 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, ul, ol, dl, figure, .highlight {
 /** Remove bottom margin for sublists **/
 li > ul, li > ol { margin-bottom: 0; }
 
-$main-width: 1024px;
+$mobile-width: 360px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin mobile {
+    @media (max-width: #{$tablet-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$desktop-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
 $content-margin: 20px;
 $content-width: 700px;
 $header-height: 3em;
@@ -68,32 +89,45 @@ a {
 }
 
 .main {
-    width: $main-width;
+    width: $desktop-width;
     margin: $header-height auto 0 auto;
     display: flex;
     align-items: flex-start;
+    justify-content: center;
+
+    @include tablet {
+        width: 100%;
+    }
 }
 
 .single-column {
-    width: $main-width - $content-margin;
+    width: 100%;
     margin: $content-margin / 2;
     background-color: $text-background-colour;
     padding: 20px;
     border-radius: 4px;
     box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.1);
+
+    img {
+        max-width: 100%;
+    }
+
+    @include tablet {
+        width: 100%;
+    }
 }
 
 .post-content {
     background-color: $text-background-colour;
     width: $content-width;
     margin: $content-margin / 2;
-    float: left;
     padding: 20px;
     border-radius: 4px;
     box-shadow: 4px 4px 2px 2px rgba(0,0,0,0.1);
 
     img {
-        max-width: $content-width - (2 * $content-margin);
+        width: $content-width - (2 * $content-margin);
+        max-width: 100%;
     }
 
     code {
@@ -109,7 +143,7 @@ a {
 
 .post-sidebar {
     background-color: $text-background-colour;
-    width: $main-width - $content-width - ($content-margin * 2);
+    width: $desktop-width - $content-width - ($content-margin * 2);
     margin: $content-margin / 2;
     float: left;
     padding: 20px;
@@ -129,6 +163,10 @@ a {
 
     &__date {
         font-size: smaller;
+    }
+
+    @include tablet {
+        display: none;
     }
 }
 
