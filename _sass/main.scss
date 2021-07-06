@@ -54,6 +54,10 @@ body {
     background-color: $lighter-colour;
     color: $text-colour;
     margin: 0;
+
+    @include mobile {
+        font-size: small;
+    }
 }
 
 a {
@@ -67,6 +71,7 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 0 0.6em;
     height: $header-height;
     display: flex;
     justify-content: center;
@@ -78,11 +83,15 @@ a {
         font-family: 'Courier New', Courier, monospace;
         font-size: 40px;
         margin-right: 0.2em;
+
+        @include mobile {
+            font-size: 23px;
+        }
     }
 
     &__navigation {
         & a {
-            padding-left: 10px;
+            padding-left: 0.6em;
             color: $medium-colour;
         }
     }
