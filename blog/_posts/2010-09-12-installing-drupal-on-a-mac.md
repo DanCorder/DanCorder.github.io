@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Installing Drupal on a Mac"
+tags: Computing
 ---
 
 The Drupal site contains full instructions for both [prerequisites](http://drupal.org/requirements) and [installation](http://www.blogger.com/) but somethings were not immediately clear to me and some of the documentation is fairly long so I thought I'd distill them here.

@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Brompton Pedals"
+tags: Brompton
 ---
 
 The Brompton folding pedal is very cleverly designed but the plastic section in the middle doesn't seem to be strong enough to cope with hard pedaling and creaks a bit when put under stress. Usually flipping the pedal the other way up works (probably because it transfers the stresses to the metal sections of the pedal) but not always for some reason.

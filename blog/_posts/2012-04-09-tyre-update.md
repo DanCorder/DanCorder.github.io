@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Tyre Update"
+tags: Brompton
 ---
 
 I've been using Schwalbe Marathon Pluses for a few months now (switching from the original Kojaks), so I thought it was time for an update.

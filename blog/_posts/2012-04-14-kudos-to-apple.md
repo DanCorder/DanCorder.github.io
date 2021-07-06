@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Kudos to Apple"
+tags: Computing
 ---
 
 I have a second hand 13" white Macbook. Like most Macbooks of that vintage it has developed cracks in the palm rest where the ridges in the lid push on it when it's closed. I recently found out that Apple in the US are still fixing this problem for free, I guess because it's seen as a design defect.

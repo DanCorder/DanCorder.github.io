@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Brompton Handlebar Brace"
+tags: Brompton
 ---
 
 Brompton manufacture an optional handle bar strengthener for the M type handlebars. As I was planning to install some bar-ends on the bike I thought the strengthener would be a very good idea to help counteract the extra bending force I'd be applying when I used the bar-ends. Aside from stiffening the handlebars the strengthener also has a couple of other things going for it:

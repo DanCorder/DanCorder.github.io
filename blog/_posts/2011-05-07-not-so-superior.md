@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Not so superior after all?"
+tags: Brompton
 ---
 
 I've now had my detachable pedals detach themselves twice. The first time was immediately after I'd been demonstrating how the pedals worked to some friends so I put it down to user error re-attaching them. However, the second time occurred after a few weeks of riding without detaching the pedals.

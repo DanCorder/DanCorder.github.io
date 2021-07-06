@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "PNG and CSS colour matching"
+tags: Computing
 ---
 
 Whilst working on my new site layout I came across a couple of issues.

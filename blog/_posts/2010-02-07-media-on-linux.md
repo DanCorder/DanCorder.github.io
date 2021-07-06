@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Media on Linux"
+tags: Computing
 ---
 
 I've had a media PC sitting under the TV for quite a while now and it's been very useful for recording TV and showing photos to the family. A few months ago I replaced the TV card with one supported under Linux (a [Hauppage WinTV-NOVA-TD 500](http://www.hauppauge.co.uk/site/products/data_novat500.html)) and thought it would be a good opportunity to learn a bit about how Linux works, plus I'd heard good things about [MythTV](http://www.mythtv.org/) and wanted to try it out. A few months later the things I have learned are:

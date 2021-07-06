@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Manual Focus"
+tags: "Photography"
 ---
 
 I've been interested in getting a manual focus screen for my D300 for a while, but the price of the [Katzeye](http://www.katzeyeoptics.com/item--Nikon-D300-D300s-Focusing-Screen--prod_D300.html) screen has put me off. However, I recently found out that you can get focus screens from on [eBay](http://shop.ebay.co.uk/?_from=R40&_trksid=p3907.m570.l1313&_nkw=d300+focus+screen&_sacat=See-All-Categories) for a fraction of the price, so I thought I'd take the plunge.

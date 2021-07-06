@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Handlebars"
+tags: Brompton
 ---
 
 As I [mentioned before](/blog/2011/07/23/brompton-ergon-gr2), I now have some fairly comfortable bar ends on my Brompton, but they were unfortunately set at a less than ideal angle, to keep them (barely) clear of the ground when the bike was folded.

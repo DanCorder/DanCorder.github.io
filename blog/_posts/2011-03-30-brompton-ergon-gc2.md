@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Brompton Ergon GC2 grips and bar ends"
+tags: Brompton
 ---
 
 *Note: Since writing this post I have [fitted some GR2 grips and bar-ends](/blog/2011/07/23/brompton-ergon-gr2) which overall I prefer to the GC2s.*

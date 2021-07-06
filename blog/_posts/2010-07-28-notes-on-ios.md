@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Notes on the iPhone on IOS4 is broken"
+tags: Computing
 ---
 
 Apple recently released IOS4 for the iPhone which updated a number of things (mostly for the better).

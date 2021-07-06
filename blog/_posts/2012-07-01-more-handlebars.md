@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "More Handlebars"
+tags: Brompton
 ---
 
 A while ago [I changed my handlebars](/blog/2011/10/20/handlebars) with some success, but I wanted to see if I could do better. The main issue with the new handlebars was that they were a bit too low which made the riding position less than ideal.

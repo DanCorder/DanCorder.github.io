@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Static Sites with Haml, Sass, and ScriptMatic"
+tags: Computing
 ---
 
 I was listening to an episode of the "Herding Code" podcast recently, and they had a guest on who was singing the praises of [Haml](http://haml-lang.com/). Haml is a language for creating HTML documents that is supposedly neater and easier to use than HTML itself. Haml is also packaged with another project called [Sass](http://sass-lang.com/) (although either can be used without the other) which is a language for creating CSS documents. Again Sass is supposed to be easier and quicker to write than CSS, but it also supports variables and arithmetic which can be very useful.

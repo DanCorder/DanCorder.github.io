@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Printing Pictures"
+tags: "Photography"
 ---
 
  So today I wrote my first plug-in for the GIMP (it's really just a script but as it's written in Python it goes in the GIMP plug-ins directory).

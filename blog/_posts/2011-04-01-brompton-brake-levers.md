@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Brompton brake levers"
+tags: Brompton
 ---
 
 As I mentioned in my [initial thoughts](/blog/2011/02/12/brompton-part-2) the biggest disappointment with my Brompton is the performance of the brakes. The [cable oilers I fitted](/blog/2011/03/25/brompton-cable-oilers) helped to some degree but I decided to try some different brake levers too.

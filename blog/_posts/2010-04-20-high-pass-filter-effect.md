@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "High Pass Filter Effect"
+tags: "Photography"
 ---
 
 This technique has been written about a number of times, not least by [Strobist](http://strobist.blogspot.com/2010/02/after-light-high-pass-post-production.html), but I thought I'd see how it works on this rhino rather than a person and what happens if you mess around with it a little.

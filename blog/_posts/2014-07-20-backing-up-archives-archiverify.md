@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Backing up archives - Archiverify"
+tags: Computing
 ---
 
 I take quite a few digital photos which I need to back-up. Until recently I did this simply by copying my original photos folder onto one of two portable hard drives which I then stored offsite.

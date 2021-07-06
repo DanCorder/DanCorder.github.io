@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Media on Windows"
+tags: Computing
 ---
 
 With the new operating system came the choice of what software to use; MythTV on Windows requires you to build it yourself and I didn't fancy going down that road. I started with the software that came with the TV card. This is version 7 of their software and I dread to think what the previous versions must have been like. If you just want to watch TV it's fine, but the UI for recording is pretty poor, and in my case didn't even work. I found a couple of possible solutions on Google, but didn't bother trying them out as I knew there was more user friendly software out there that I wanted to try first.

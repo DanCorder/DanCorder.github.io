@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Brompton Cable Oilers"
+tags: Brompton
 ---
 
 As I mentioned in a previous post, one of the (few) disappointments with my Brompton is the brake performance. After a bit of research one thing I saw recommended was fitting [cable oilers](http://www.chainreactioncycles.com/Models.aspx?ModelID=3318) to allow easy lubrication of the brake cables. However I couldn't find any information on how to fit them or what the different sizes meant - although it seemed that one size was for brakes and one was for gears. So, I ordered a packet of each and resolved to work it out when they arrived. The other thing I ordered was a packet of [cable endcaps](http://www.wiggle.co.uk/transfil-pack-of-10-anti-fray-inner-cable-end-caps/).

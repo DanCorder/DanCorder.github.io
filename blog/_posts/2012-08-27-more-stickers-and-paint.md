@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "More Stickers and Paint"
+tags: Brompton
 ---
 
 When I first [posted about adding some stickers](/blog/2011/05/01/brompton-stickers-and-paint) to protect my frame from rubbing a couple of people helpfully posted comments about clear stickers.

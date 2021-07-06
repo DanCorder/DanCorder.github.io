@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Broken Mudguard"
+tags: Brompton
 ---
 
 I managed to break the rear mudguard on my Brompton recently. I don't think I put the bike down any harder than I normally do (it was parked), so my best guess is that the recent extra cold weather had made the plastic more brittle than usual (I keep the bike in an unheated garage). I managed to tape it up for a few days, but then the remaining bits of plastic snapped and I was left with what you can see below.

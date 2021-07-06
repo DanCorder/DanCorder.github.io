@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Bye Bye Baldy"
+tags: Brompton
 ---
 
 When I was originally ordering my Brompton and looking through the myriad options, the one I thought was simplest was the choice of tyres. The Schawalbe Kojaks were high pressure - so low rolling resistance, have a "Raceguard" strip, and are lighter than the alternatives. A no-brainer, or so I thought.

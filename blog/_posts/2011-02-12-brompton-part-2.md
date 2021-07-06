@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Brompton Part 2"
+tags: Brompton
 ---
 
 I've been riding my Brompton the short distances on my current commute to get it broken in and get used to it. My initial impression in mostly positive, but there are a few niggles. Some good and not so good points follow:

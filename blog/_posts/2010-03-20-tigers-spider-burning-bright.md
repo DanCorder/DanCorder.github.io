@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Tiger's Spider Burning Bright"
+tags: Games
 ---
 
 I recently bought a game for my iPhone, which in itself is unusual as I don't normally buy things from the iTunes store as I don't like the idea of only being able to use them whilst Apple says I can. The game in question is [Spider: The Secret of Bryce Manor](http://itunes.apple.com/gb/app/spider-the-secret-bryce-manor/id325954996?mt=8&uo=6) (developed by Tiger Style) and in this case a combination of the free demo [Spider: Hornet Smash](http://itunes.apple.com/gb/app/spider-hornet-smash/id346102709?mt=8&uo=6) and the fact that Randy Smith was involved was enough to get me to part with the small amount of £1.79.

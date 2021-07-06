@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "More Manual Focus"
+tags: "Photography"
 ---
 
 I got a response from Nikon service reasonably quickly, however the response itself was fairly useless. They couldn't give me a price for doing any work without seeing the camera and said that if the focus screen wasn't a Nikon one (as far as I know Nikon don't make split prism screens for their DSLRs) they may replace it during the service.

@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "New Brompton"
+tags: Brompton
 ---
 
 We're currently trying to sell our house so that we can move nearer to our families. Anyway, the upshot of the planned move is that we will be living about a mile from the railway station with a _very_ steep hill in-between. A second consideration is that the train from Rochester only goes to St Pancras rather than Kentish Town so there's a bit of a journey at the far end of my commute too. So, the obvious solution to this transport issue (and a way to get some exercise) is a folding bicycle.

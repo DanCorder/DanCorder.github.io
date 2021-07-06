@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Brompton Ergon GR2 grips and bar ends"
+tags: Brompton
 ---
 
 [Sometime ago](/blog/2011/03/30/brompton-ergon-gc2) I mentioned that I was going to try some longer bar-ends on my Brompton. The main reason for the change was that I'd cut my first set of Ergon grips to match the original brake levers and then promptly [changed the brake levers for different ones](/blog/2011/04/01/brompton-brake-levers).

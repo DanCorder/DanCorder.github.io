@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Media Hardware"
+tags: Computing
 ---
 
 Hopefully the final post in this mini series about my Media PC trials (I'd much rather just be using it!). Most of the hardware in the PC is not particularly important. It's an old Athlon XP on a micro ATX motherboard in an Antec Aria case if you must know :). The imporant parts are the [Hauppage WinTV-NOVA-TD 500](http://www.hauppauge.co.uk/site/products/data_novat500.html) with remote control and a wireless [Emprex keyboard](http://www.emprex.com/02_products_01.php?group=79&PHPSESSID=d4ce813a4ddb01e516d89ff7d7ab9756) with built in trackball (you can get one from Amazon [here](http://www.amazon.co.uk/gp/product/B001M9OEQ4?ie=UTF8&tag=wwwdancorderc-21&linkCode=as2&camp=1634&creative=6738&creativeASIN=B001M9OEQ4)).

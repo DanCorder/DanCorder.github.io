@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Brompton Power Grips"
+tags: Brompton
 ---
 
 In my previous [post on pedals](/blog/2011/04/10/brompton-pedals) I mentioned that I also bought some [Power Grips](http://www.chainreactioncycles.com/Models.aspx?ModelID=28933) to go with them. I use

@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Brompton Stickers and Paint"
+tags: Brompton
 ---
 
 As I mentioned in my [rather long and rambling initial thoughts](/blog/2011/02/12/brompton-part-2), the orange paint on my Brompton doesn't seem to be very hard wearing. Looking over the bike recently I noticed that the front brake cable had already managed to rub through the paint on the fork and was getting close to doing the same on the main frame tube.
