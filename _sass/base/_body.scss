@@ -1,0 +1,9 @@
+body {
+    font-family: "Verdana", "Arial", sans-serif;
+    background-color: $lighter-colour;
+    color: $text-colour;
+
+    @include mobile {
+        font-size: small;
+    }
+}

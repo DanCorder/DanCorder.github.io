@@ -1,3 +1,18 @@
 ---
 ---
-@import "main";
+@import "abstracts/_variables";
+@import "abstracts/_mixins";
+
+@import "base/_reset";
+@import "base/_anchor";
+@import "base/_body";
+
+@import "layout/_header";
+@import "layout/_content";
+
+@import "components/_blog-list";
+@import "components/_content-block";
+@import "components/_post-list";
+@import "components/_til-list";
+
+@import "pages/_links";

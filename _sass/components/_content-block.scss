@@ -1,0 +1,18 @@
+.content-block {
+    @include block-common;
+
+    img {
+        width: $content-width - (2 * $content-margin);
+        max-width: 100%;
+    }
+
+    code {
+        white-space: pre-wrap;
+    }
+
+    &__date {
+        font-size: x-small;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+    }
+}

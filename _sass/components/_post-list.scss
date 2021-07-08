@@ -1,0 +1,16 @@
+.post-list {
+    padding-left: 0;
+    list-style: none;
+
+    &__heading {
+        margin-bottom: 0.2em;
+    }
+
+    &__date {
+        font-size: small;
+    }
+
+    &__excerpt {
+        margin-bottom: 1em;
+    }
+}

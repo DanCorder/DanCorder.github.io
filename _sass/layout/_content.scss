@@ -1,0 +1,32 @@
+.main {
+    width: $desktop-width;
+    margin: $header-height auto 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    @include tablet {
+        width: 100%;
+    }
+}
+
+.main-content {
+    width: $main-content-width;
+}
+
+.sidebar {
+    width: $desktop-width - $main-content-width;
+
+    @include tablet {
+        display: none;
+    }
+}
+
+.single-column {
+    width: 100%;
+    @include block-common;
+
+    img {
+        max-width: 100%;
+    }
+}

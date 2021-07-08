@@ -1,0 +1,6 @@
+a {
+    color: $medium-colour;
+    &:visited {
+        color: $darker-colour;
+    }
+}

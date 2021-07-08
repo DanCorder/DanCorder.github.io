@@ -1,0 +1,14 @@
+.til-list {
+    @include block-common;
+
+    &__posts {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-size: small;
+    }
+
+    &__date {
+        font-size: smaller;
+    }
+}

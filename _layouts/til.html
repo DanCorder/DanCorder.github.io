@@ -1,7 +1,14 @@
 ---
-layout: post
-category: til
-list: post-list-flat.html
+layout: page
 ---
 
-{{ content }}
+<div class='main-content'>
+  <div class='content-block'>
+    <p class='content-block__date'>{{ page.date | date: "%d %B %Y" }}</p>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </div>
+</div>
+<div class='sidebar'>
+  {% include til-list.html %}
+</div>
