@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: single-column
 title: Thief
 ---
 
 <div id='thief'>
-    <h2>Thief</h2>
     <p>For those who don't know, Thief is one of many quality games that were made by Looking Glass Studios during its lifetime. Looking Glass released a level editor for Thief and many, many new levels have been created by fans of the original game.</p>
     <p>For all things Thief related I suggest you visit <a href="http://www.thief-thecircle.com">Thief the circle</a> for information, stories, and, most importantly, just about every fan made mission in existance (You can even find my mission <a href="http://www.thief-thecircle.com/download.asp?fid=62">Turning the Tables there</a>).</p>
     <p>There are also some incredibly useful forums at <a href="http://www.ttlg.com/forums">TTLG</a> whether you want to create your own mission or are just playing some of the existing ones.</p>
