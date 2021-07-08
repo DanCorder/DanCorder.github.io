@@ -20,6 +20,12 @@ $mobile-width: 360px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
 
+@mixin tiny {
+    @media (max-width: #{$mobile-width - 1px}) {
+        @content;
+    }
+}
+
 @mixin mobile {
     @media (max-width: #{$tablet-width - 1px}) {
         @content;
@@ -86,6 +92,10 @@ a {
 
         @include mobile {
             font-size: 23px;
+        }
+
+        @include tiny {
+            display: none;
         }
     }
 
