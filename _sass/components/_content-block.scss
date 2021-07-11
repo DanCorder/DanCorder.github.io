@@ -2,7 +2,6 @@
     @include block-common;
 
     img {
-        width: $content-width - (2 * $content-margin);
         max-width: 100%;
     }
 
