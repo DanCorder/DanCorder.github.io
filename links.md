@@ -1,9 +1,9 @@
 ---
-layout: single-column
+layout: default
 title: Links
 ---
 
-<div class='links'>
+<div class='links clearfix'>
     <div class='links__set'>
         <h2>Photography</h2>
         <a href="https://strobist.blogspot.com/">Strobist</a>

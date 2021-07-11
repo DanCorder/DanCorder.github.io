@@ -1,5 +1,5 @@
 ---
-layout: single-column
+layout: default
 title: Blog posts
 ---
 

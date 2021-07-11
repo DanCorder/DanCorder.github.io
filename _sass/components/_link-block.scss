@@ -1,0 +1,10 @@
+.link-block {
+    @include block-common;
+
+    &__links {
+        list-style: none;
+
+        margin: 0;
+        padding: 0;
+    }
+}

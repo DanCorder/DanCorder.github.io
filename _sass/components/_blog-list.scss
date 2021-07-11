@@ -1,6 +1,10 @@
 .blog-list {
     @include block-common;
 
+    @include tablet {
+        display: none;
+    }
+
     &__posts, &__year, &__month {
         padding: 0;
         margin: 0;

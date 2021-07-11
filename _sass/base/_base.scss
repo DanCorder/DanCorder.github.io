@@ -1,0 +1,25 @@
+body {
+    font-family: "Verdana", "Arial", sans-serif;
+    background-color: $lighter-colour;
+    color: $text-colour;
+
+    @include mobile {
+        font-size: small;
+    }
+}
+
+a {
+    color: $medium-colour;
+    &:visited {
+        color: $darker-colour;
+    }
+}
+
+.clearfix {
+    clear: both;
+}
+.clearfix:after {
+    clear: both; 
+    content: "";
+    display: table; 
+}
