@@ -20,10 +20,10 @@ title: Links
     <div class='links__set'>
         <h2>Software Development</h2>
         <a href="https://stackoverflow.com">Stack Overflow</a>
-        <a href="https://weblogs.asp.net/scottgu/">Scott Gu</a>
         <a href="https://www.quirksmode.org/">Quirks Mode</a>
         <a href="https://developer.mozilla.org/en-US/">MDN</a>
         <a href="https://sass-lang.com/">Sass</a>
+        <a href="https://caniuse.com/">Can I Use</a>
     </div>
     <div class='links__set'>
         <h2>Comics</h2>
@@ -35,7 +35,7 @@ title: Links
     </div>
     <div class='links__set'>
         <h2>Games</h2>
-        <a href="https://www.edge-online.com/">Edge Magazine</a>
+        <a href="https://www.gamesradar.com/edge/">Edge Magazine</a>
         <a href="https://bethesda.net/community/category/5/the-elder-scrolls?language%5B%5D=en">TES forums</a>
         <a href="https://www.uesp.net/wiki/Oblivion:Oblivion">Oblivion Wiki</a>
     </div>
