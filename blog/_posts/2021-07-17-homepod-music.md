@@ -30,3 +30,10 @@ To fix this you need to insert a "Change Case" action to capitalise the text:
 A similar trick works for most Album titles.
 
 These shortcuts aren't foolproof, but much better than nothing. I just wish Apple would sort out Siri on Homepod so that this workaround wasn't necessary.
+
+### UPDATE
+
+You can improve the album and song shortcuts by making multiple different capitalisations of the "Dictate Text" action, storing them in variables, and then checking all of those in the "Find Music" action.
+
+![screenshot of multiple capitalisations](https://photos.smugmug.com/photos/i-S5bt8r3/0/d4bae812/L/i-S5bt8r3-L.png)
+![screenshot of find songs](https://photos.smugmug.com/photos/i-L4x6P4J/0/ad58dad6/L/i-L4x6P4J-L.png)
