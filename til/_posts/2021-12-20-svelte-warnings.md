@@ -11,6 +11,8 @@ I wanted to record how to do it for future reference.
 
 The easyish part is using `<!-- svelte-ignore error-code -->` the harder part is working out what `error-code` should actually be.
 
-I couldn't find a nice list documented anywhere, so failing that here's the relevant source file:
+Update: The headings here seem to match the error codes: <https://svelte.dev/docs#accessibility-warnings>
 
-<https://github.com/sveltejs/svelte/blob/master/src/compiler/compile/compiler_warnings.ts>
+~~I couldn't find a nice list documented anywhere, so failing that here's the relevant source file:~~
+
+~~<https://github.com/sveltejs/svelte/blob/master/src/compiler/compile/compiler_warnings.ts>~~
